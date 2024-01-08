@@ -1,0 +1,42 @@
+.img{
+    height: 4rem;
+    width: 5rem;
+}
+.imgContact{
+    height: 3rem;
+    width: 3rem;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contentNav{
+    border-bottom: 1px solid #002142;
+    gap: 180px;
+}
+.nLink{
+    font-size: 1.2em;
+    color: #002142;
+}
+.nLink:hover{
+    color: #f2a620;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+@media (width < 996px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+    }
+    #navBar{
+        gap: 1em;
+    }
+}

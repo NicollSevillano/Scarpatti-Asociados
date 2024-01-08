@@ -1,0 +1,18 @@
+.h4{
+    margin: 3em 7.3em 3em;
+    color: #002142;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+@media (width < 996px) {
+    .h4{
+        margin: 2em 1em 2em;
+        font-size: 1.3em;
+    }
+}
+@media (width < 400px) {
+    .h4{
+        font-size: 1em;
+    }
+}
