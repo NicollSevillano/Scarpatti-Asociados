@@ -1,0 +1,46 @@
+.contentLogos {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.logosUno {
+    overflow: hidden;
+    white-space: nowrap;
+    align-items: center;
+    position: relative;
+    background-color: rgba(206, 206, 206, 0.5);
+}
+
+.logosUno:before,
+.logosUno:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+.logosSlide {
+    display: inline-block;
+    animation: 25s slide infinite linear;
+    display: flex;
+    flex-direction: row;
+}
+
+.logosSlide img {
+    height: 100px;
+    width: 120px;
+    margin: 20px;
+    object-fit: contain;
+    position: relative;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
