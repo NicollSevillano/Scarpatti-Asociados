@@ -1,6 +1,7 @@
 .content {
     background-color: #8d8c4520;
     position: relative;
+    font-family: 'Fredoka', sans-serif;
 }
 
 @media (width < 800px) {
@@ -10,7 +11,7 @@
     #Img {
         max-width: 400px;
         background-position: center;
-        max-height: 20em;
+        max-height: 15em;
     }
 }
 @media (width < 400px) {

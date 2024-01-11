@@ -2,8 +2,12 @@
     margin: 3em 7.3em 3em;
     color: #002142;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
 }
 @media (width < 996px) {
     .h4{

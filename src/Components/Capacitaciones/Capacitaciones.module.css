@@ -1,0 +1,58 @@
+#content {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 50px 6em;
+    flex-direction: column;
+}
+
+.cardArea {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 4%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 1.2em;
+}
+
+.contentList {
+    display: flex;
+    align-items: center;
+}
+
+.tittle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.tittle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media (width < 800px) {
+    .cardArea {
+        display: flex;
+        flex-direction: column;
+    }
+    .list{
+        font-size: 14.4px;
+    }
+}

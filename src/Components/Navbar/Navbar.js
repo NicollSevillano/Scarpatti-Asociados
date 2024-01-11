@@ -8,17 +8,16 @@ import phone from '../img/vc/phone.png'
 
 function CollapsibleExample() {
     return (
-        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" id={styles.contentNav}>
+        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" style={{fontFamily: 'fredoka'}}>
             <Container>
                 <Navbar.Brand href="#home"><img className={styles.img} src={SA}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link className={styles.nLink} href="#home">Consultora</Nav.Link>
-                        <Nav.Link className={styles.nLink} href="#link">Scarpatti</Nav.Link>
-                        <Nav.Link className={styles.nLink} href="#link">¿Por qué elegirnos?</Nav.Link>
-                    </Nav>
-                    <Nav>
+                        <Nav.Link className={styles.nLink} to={"/"}>Consultora</Nav.Link>
+                        <Nav.Link className={styles.nLink} to={"/Consultora"}>Scarpatti</Nav.Link>
+                        <Nav.Link className={styles.nLink} to={"/Nosotros"}>¿Por qué elegirnos?</Nav.Link>
+                    </Nav>        <Nav>
                         <a><img src={phone} className={styles.imgContact} alt="" /></a>
                     </Nav>
                 </Navbar.Collapse>

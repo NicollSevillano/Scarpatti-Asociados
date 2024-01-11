@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
 }
 
 .App-logo {
@@ -22,6 +27,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Fredoka', sans-serif;
 }
 
 .App-link {
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

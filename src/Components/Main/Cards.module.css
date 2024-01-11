@@ -4,6 +4,7 @@
     align-items: center;
     gap: 10rem;
     margin-bottom: 5em;
+    font-family: 'Fredoka', sans-serif;
 }
 .content{
     display: flex;
